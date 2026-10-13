@@ -1,0 +1,6 @@
+{
+  "name": "Super Podruga 30 - Mario Birthday Edition",
+  "description": "Праздничный 2D-платформер в стиле Марио к 30-летию подруги с персонажами из фото, секретным призом и хитом Сектор Газа!",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

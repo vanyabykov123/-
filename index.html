@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>Super Podruga 30 - Mario Birthday Edition</title>
+    <meta name="description" content="Праздничный 2D-платформер в стиле Марио к 30-летию подруги с персонажами из фото, секретным супер-призом и хитом Сектор Газа!" />
+    <meta property="og:title" content="Super Podruga 30 - Mario Birthday Edition" />
+    <meta property="og:description" content="Праздничный 2D-платформер в стиле Марио к 30-летию подруги с персонажами из фото, секретным супер-призом и хитом Сектор Газа!" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#1e3a8a" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Подруга 30" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/icon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik:wght@400;600;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-slate-950 text-slate-100 select-none overflow-hidden touch-none font-sans">
+    <div id="root"></div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(err => console.log('SW registration skipped:', err));
+        });
+      }
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

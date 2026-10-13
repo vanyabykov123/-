@@ -1,0 +1,275 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a90e2"/>
+      <stop offset="40%" stop-color="#87ceeb"/>
+      <stop offset="70%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="lawn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2e7d32"/>
+      <stop offset="30%" stop-color="#388e3c"/>
+      <stop offset="70%" stop-color="#4caf50"/>
+      <stop offset="100%" stop-color="#66bb6a"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b4332"/>
+      <stop offset="50%" stop-color="#2d6a4f"/>
+      <stop offset="100%" stop-color="#1b4332"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e9d8a6"/>
+      <stop offset="100%" stop-color="#d4a373"/>
+    </linearGradient>
+
+    <!-- Character 1: Guy grey jacket -->
+    <linearGradient id="jacket-grey" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#475569"/>
+      <stop offset="50%" stop-color="#64748b"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+
+    <!-- Character 2: Girl cyan vest / pink hoodie -->
+    <linearGradient id="vest-cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <linearGradient id="hoodie-pink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#db2777"/>
+    </linearGradient>
+
+    <!-- Character 3: Blonde girl navy coat fur trim -->
+    <linearGradient id="coat-navy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="50%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="fur-trim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+
+    <!-- Character 4: Guy light green tracksuit -->
+    <linearGradient id="tracksuit-mint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#86efac"/>
+      <stop offset="50%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+
+    <!-- Skin tone gradients -->
+    <radialGradient id="skin1" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ffedd5"/>
+      <stop offset="70%" stop-color="#fed7aa"/>
+      <stop offset="100%" stop-color="#fdba74"/>
+    </radialGradient>
+    <radialGradient id="skin2" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#fff1f2"/>
+      <stop offset="70%" stop-color="#fecdd3"/>
+      <stop offset="100%" stop-color="#fda4af"/>
+    </radialGradient>
+    <radialGradient id="hair-blonde" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="60%" stop-color="#facc15"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </radialGradient>
+    <radialGradient id="hair-brown" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#92400e"/>
+      <stop offset="70%" stop-color="#78350f"/>
+      <stop offset="100%" stop-color="#451a03"/>
+    </radialGradient>
+
+    <filter id="photo-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background: Sky -->
+  <rect width="800" height="380" fill="url(#sky)"/>
+
+  <!-- Clouds -->
+  <ellipse cx="150" cy="80" rx="90" ry="35" fill="#ffffff" opacity="0.8"/>
+  <ellipse cx="210" cy="70" rx="70" ry="40" fill="#ffffff" opacity="0.9"/>
+  <ellipse cx="640" cy="90" rx="110" ry="40" fill="#ffffff" opacity="0.85"/>
+  <ellipse cx="580" cy="85" rx="80" ry="35" fill="#ffffff" opacity="0.8"/>
+
+  <!-- Country cottage in background -->
+  <!-- Main building -->
+  <polygon points="260,180 540,180 540,320 260,320" fill="url(#wall)"/>
+  <!-- Dark green gabled roof -->
+  <polygon points="230,190 400,60 570,190" fill="url(#roof)"/>
+  <polygon points="390,65 570,190 560,195 390,75" fill="#143625"/>
+  <!-- Chimney -->
+  <rect x="470" y="80" width="30" height="60" fill="#b91c1c"/>
+  <rect x="466" y="75" width="38" height="10" fill="#991b1b"/>
+  <!-- Windows -->
+  <rect x="310" y="210" width="60" height="70" rx="4" fill="#1e293b"/>
+  <rect x="314" y="214" width="24" height="30" fill="#bae6fd"/>
+  <rect x="342" y="214" width="24" height="30" fill="#bae6fd"/>
+  <rect x="314" y="248" width="24" height="28" fill="#7dd3fc"/>
+  <rect x="342" y="248" width="24" height="28" fill="#7dd3fc"/>
+
+  <rect x="430" y="210" width="60" height="70" rx="4" fill="#1e293b"/>
+  <rect x="434" y="214" width="24" height="30" fill="#bae6fd"/>
+  <rect x="462" y="214" width="24" height="30" fill="#bae6fd"/>
+  <rect x="434" y="248" width="24" height="28" fill="#7dd3fc"/>
+  <rect x="462" y="248" width="24" height="28" fill="#7dd3fc"/>
+
+  <!-- Trees & Shrubs in background -->
+  <circle cx="180" cy="270" r="80" fill="#15803d" opacity="0.95"/>
+  <circle cx="120" cy="290" r="90" fill="#166534"/>
+  <circle cx="620" cy="280" r="85" fill="#15803d" opacity="0.95"/>
+  <circle cx="690" cy="290" r="95" fill="#166534"/>
+
+  <!-- Green Grass Lawn Foreground -->
+  <rect y="310" width="800" height="290" fill="url(#lawn)"/>
+
+  <!-- ================= GROUP OF 4 FRIENDS ================= -->
+
+  <!-- FRIEND 1 (Left): Guy in grey puffer jacket -->
+  <g id="friend1" filter="url(#photo-shadow)">
+    <!-- Legs / Dark Jeans -->
+    <rect x="175" y="470" width="35" height="130" rx="6" fill="#1e293b"/>
+    <rect x="215" y="470" width="35" height="130" rx="6" fill="#0f172a"/>
+    <!-- Puffer Jacket Body -->
+    <path d="M 160 380 Q 210 375 260 380 L 265 480 Q 210 490 155 480 Z" fill="url(#jacket-grey)"/>
+    <!-- Puffer horizontal ridges -->
+    <path d="M 162 405 Q 210 400 258 405" stroke="#334155" stroke-width="4" fill="none"/>
+    <path d="M 159 435 Q 210 430 261 435" stroke="#334155" stroke-width="4" fill="none"/>
+    <path d="M 157 465 Q 210 460 263 465" stroke="#334155" stroke-width="4" fill="none"/>
+    <!-- Arms -->
+    <path d="M 160 385 L 140 450 Q 145 470 165 460 L 175 410 Z" fill="url(#jacket-grey)"/>
+    <!-- Neck -->
+    <rect x="195" y="340" width="30" height="45" fill="url(#skin1)"/>
+    <!-- Head / Face -->
+    <ellipse cx="210" cy="320" rx="34" ry="42" fill="url(#skin1)"/>
+    <!-- Hair (short brown) -->
+    <path d="M 175 315 Q 175 270 210 270 Q 245 270 245 315 Q 235 295 210 295 Q 185 295 175 315 Z" fill="url(#hair-brown)"/>
+    <!-- Eyes -->
+    <ellipse cx="198" cy="315" rx="3.5" ry="4.5" fill="#1e293b"/>
+    <ellipse cx="222" cy="315" rx="3.5" ry="4.5" fill="#1e293b"/>
+    <!-- Eyebrows -->
+    <path d="M 192 307 Q 198 303 205 307" stroke="#451a03" stroke-width="2.5" fill="none"/>
+    <path d="M 215 307 Q 222 303 228 307" stroke="#451a03" stroke-width="2.5" fill="none"/>
+    <!-- Smile -->
+    <path d="M 197 338 Q 210 348 223 338" stroke="#b91c1c" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- FRIEND 2 (Center-Left): Blonde girl in cyan vest over pink hoodie -->
+  <g id="friend2" filter="url(#photo-shadow)">
+    <!-- Legs / Dark Leggings -->
+    <rect x="290" y="475" width="28" height="125" rx="5" fill="#0f172a"/>
+    <rect x="325" y="475" width="28" height="125" rx="5" fill="#1e293b"/>
+    <!-- Pink Hoodie sleeves -->
+    <path d="M 270 375 L 255 450 Q 265 460 280 445 L 290 390 Z" fill="url(#hoodie-pink)"/>
+    <path d="M 350 375 L 365 450 Q 355 460 340 445 L 330 390 Z" fill="url(#hoodie-pink)"/>
+    <!-- Bright Cyan Puffer Vest -->
+    <path d="M 275 365 Q 310 360 345 365 L 350 475 Q 310 480 270 475 Z" fill="url(#vest-cyan)"/>
+    <!-- Vest zipper & collar -->
+    <line x1="310" y1="362" x2="310" y2="477" stroke="#e0f2fe" stroke-width="3"/>
+    <path d="M 280 395 Q 310 390 340 395" stroke="#0284c7" stroke-width="3" fill="none"/>
+    <path d="M 278 430 Q 310 425 342 430" stroke="#0284c7" stroke-width="3" fill="none"/>
+    <path d="M 276 460 Q 310 455 344 460" stroke="#0284c7" stroke-width="3" fill="none"/>
+    <!-- Pink Hoodie Hood around neck -->
+    <path d="M 290 355 Q 310 370 330 355 Q 320 345 310 345 Q 300 345 290 355 Z" fill="url(#hoodie-pink)"/>
+    <!-- Neck -->
+    <rect x="298" y="325" width="24" height="35" fill="url(#skin2)"/>
+    <!-- Head / Face -->
+    <ellipse cx="310" cy="305" rx="30" ry="38" fill="url(#skin2)"/>
+    <!-- Blonde Hair (wavy shoulder length) -->
+    <path d="M 275 320 Q 270 250 310 250 Q 350 250 345 320 Q 350 370 335 380 Q 330 350 335 315 Q 310 280 285 315 Q 290 350 285 380 Q 270 370 275 320 Z" fill="url(#hair-blonde)"/>
+    <!-- Bangs -->
+    <path d="M 285 285 Q 300 295 315 285 Q 330 295 335 285 Q 325 270 310 270 Q 295 270 285 285 Z" fill="#fde047"/>
+    <!-- Sparkling Blue Eyes -->
+    <ellipse cx="298" cy="302" rx="3.5" ry="4" fill="#0284c7"/>
+    <circle cx="297" cy="300" r="1.5" fill="#ffffff"/>
+    <ellipse cx="322" cy="302" rx="3.5" ry="4" fill="#0284c7"/>
+    <circle cx="321" cy="300" r="1.5" fill="#ffffff"/>
+    <!-- Cheeks blush -->
+    <circle cx="290" cy="315" r="7" fill="#fb7185" opacity="0.45"/>
+    <circle cx="330" cy="315" r="7" fill="#fb7185" opacity="0.45"/>
+    <!-- Radiant Smile -->
+    <path d="M 299 324 Q 310 336 321 324" stroke="#e11d48" stroke-width="3" fill="#ffffff" stroke-linecap="round"/>
+  </g>
+
+  <!-- FRIEND 3 (Center-Right): Blonde girl in dark navy coat with fur hood -->
+  <g id="friend3" filter="url(#photo-shadow)">
+    <!-- Legs -->
+    <rect x="425" y="480" width="30" height="120" rx="5" fill="#0f172a"/>
+    <rect x="460" y="480" width="30" height="120" rx="5" fill="#1e293b"/>
+    <!-- Navy Parka Body -->
+    <path d="M 405 365 Q 445 358 485 365 L 495 480 Q 445 490 395 480 Z" fill="url(#coat-navy)"/>
+    <!-- Parka zipper & pockets -->
+    <line x1="445" y1="360" x2="445" y2="482" stroke="#94a3b8" stroke-width="2.5"/>
+    <!-- Fur trim around collar / hood (Gold-caramel fur) -->
+    <ellipse cx="445" cy="355" rx="46" ry="24" fill="url(#fur-trim)"/>
+    <!-- Neck -->
+    <rect x="433" y="320" width="24" height="35" fill="url(#skin2)"/>
+    <!-- Head / Face -->
+    <ellipse cx="445" cy="305" rx="30" ry="38" fill="url(#skin2)"/>
+    <!-- Blonde Hair (long flowing bangs) -->
+    <path d="M 410 310 Q 405 245 445 245 Q 485 245 480 310 Q 485 375 470 385 Q 465 350 470 310 Q 445 275 420 310 Q 425 350 420 385 Q 405 375 410 310 Z" fill="url(#hair-blonde)"/>
+    <path d="M 420 280 Q 435 290 450 280 Q 465 290 470 280 Q 460 265 445 265 Q 430 265 420 280 Z" fill="#fde047"/>
+    <!-- Big Blue Eyes -->
+    <ellipse cx="434" cy="302" rx="3.5" ry="4" fill="#0369a1"/>
+    <circle cx="433" cy="300" r="1.5" fill="#ffffff"/>
+    <ellipse cx="456" cy="302" rx="3.5" ry="4" fill="#0369a1"/>
+    <circle cx="455" cy="300" r="1.5" fill="#ffffff"/>
+    <!-- Cheeks blush -->
+    <circle cx="425" cy="315" r="7" fill="#fb7185" opacity="0.45"/>
+    <circle cx="465" cy="315" r="7" fill="#fb7185" opacity="0.45"/>
+    <!-- Warm smile -->
+    <path d="M 435 324 Q 445 336 455 324" stroke="#e11d48" stroke-width="3" fill="#ffffff" stroke-linecap="round"/>
+  </g>
+
+  <!-- FRIEND 4 (Right): Guy in mint green matching tracksuit -->
+  <g id="friend4" filter="url(#photo-shadow)">
+    <!-- Legs / Mint green joggers -->
+    <rect x="545" y="470" width="34" height="130" rx="6" fill="url(#tracksuit-mint)"/>
+    <rect x="585" y="470" width="34" height="130" rx="6" fill="url(#tracksuit-mint)"/>
+    <!-- Tracksuit Hoodie Body -->
+    <path d="M 530 375 Q 575 370 620 375 L 625 480 Q 575 488 525 480 Z" fill="url(#tracksuit-mint)"/>
+    <!-- Kangaroo pocket on hoodie -->
+    <path d="M 545 435 Q 575 430 605 435 L 610 470 Q 575 475 540 470 Z" fill="#4ade80" stroke="#16a34a" stroke-width="2"/>
+    <!-- Arms -->
+    <path d="M 615 385 L 635 450 Q 625 465 605 455 L 600 405 Z" fill="url(#tracksuit-mint)"/>
+    <!-- Neck -->
+    <rect x="560" y="335" width="28" height="45" fill="url(#skin1)"/>
+    <!-- Head / Face -->
+    <ellipse cx="575" cy="318" rx="33" ry="40" fill="url(#skin1)"/>
+    <!-- Hair (short dark brown) -->
+    <path d="M 542 312 Q 542 268 575 268 Q 608 268 608 312 Q 598 292 575 292 Q 552 292 542 312 Z" fill="url(#hair-brown)"/>
+    <!-- Eyes -->
+    <ellipse cx="563" cy="314" rx="3.5" ry="4" fill="#1e293b"/>
+    <ellipse cx="587" cy="314" rx="3.5" ry="4" fill="#1e293b"/>
+    <!-- Eyebrows -->
+    <path d="M 557 306 Q 563 302 570 306" stroke="#451a03" stroke-width="2.5" fill="none"/>
+    <path d="M 580 306 Q 587 302 593 306" stroke="#451a03" stroke-width="2.5" fill="none"/>
+    <!-- Broad friendly grin -->
+    <path d="M 563 336 Q 575 348 587 336" stroke="#b91c1c" stroke-width="3" fill="#ffffff" stroke-linecap="round"/>
+  </g>
+
+  <!-- Photo Polaroid / Festive Frame Overlay -->
+  <rect x="12" y="12" width="776" height="576" rx="16" fill="none" stroke="#f59e0b" stroke-width="8"/>
+  <rect x="24" y="24" width="752" height="552" rx="12" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.6"/>
+
+  <!-- Top Badge: ИСХОДНОЕ ФОТО ДРУЗЕЙ -->
+  <g transform="translate(40, 40)">
+    <rect x="0" y="0" width="280" height="44" rx="22" fill="#0f172a" opacity="0.85"/>
+    <circle cx="22" cy="22" r="14" fill="#f59e0b"/>
+    <text x="22" y="27" font-family="sans-serif" font-size="16" text-anchor="middle">📸</text>
+    <text x="48" y="27" font-family="'Rubik', sans-serif" font-weight="bold" font-size="16" fill="#fef08a">
+      ФОТО ДРУЗЕЙ • 30 ЛЕТ
+    </text>
+  </g>
+
+  <!-- Bottom Badge: ДАЧА • ВСЕ В СБОРЕ -->
+  <g transform="translate(510, 530)">
+    <rect x="0" y="0" width="250" height="36" rx="18" fill="#0f172a" opacity="0.85"/>
+    <text x="125" y="23" font-family="'Rubik', sans-serif" font-weight="bold" font-size="14" fill="#86efac" text-anchor="middle">
+      Дача • Все друзья в сборе! ❤️
+    </text>
+  </g>
+</svg>
